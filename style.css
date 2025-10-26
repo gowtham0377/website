@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #000000, #1a0000, #330000);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Visouls Background.jpg"); 
+  background-size:cover;                   
+  background-position: center;              
+  background-repeat: no-repeat;             
+  background-attachment: fixed;   
+}
+
+
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 50px;
+  display: flex;
+  margin-right: 1200px;
+  width: 140px;
+}
+
+.brand {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.coming-soon {
+  font-family: 'Press start 2p', cursive;
+  font-size: 70px;
+  color: white;
+  margin: 30px 0;
+}
+
+.content-box {
+  background: rgba(20, 0, 0, 0.7);
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.center-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.content-box h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.content-box p {
+  font-size: 14px;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input[type="email"] {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #aa0000;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 250px;
+}
+
+button {
+  background: linear-gradient(145deg, #c91010, #ff4141);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.socials {
+  display: flex;
+  justify-content:center;
+  margin-top: -60px;
+
+
+}
+
+.socials a img {
+  width: 35px;
+  margin: 0 8px;
+  filter: brightness(0.8);
+  transition: 0.3s;
+}
+
+.socials a img:hover {
+  filter: brightness(1.2);
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff3b3b;
+}
